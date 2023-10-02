@@ -11,7 +11,7 @@ public class Exercicio {
         int totalDias = 0;
 
         System.out.println(
-                "\nVamos calcular quantos dias de vida voce tem. \nInforme os dados a seguir: quantos anos vc tem?");
+                "\nVamos calcular aproximadamente quantos dias de vida voce tem. \nInforme os dados a seguir: quantos anos vc tem?");
         anos = scan.nextInt();
 
         System.out.println("Quantos meses?");
@@ -22,7 +22,7 @@ public class Exercicio {
 
         totalDias = ((anos * 365) + (meses * 30) + dias);
 
-        System.out.println("vc ja viveu: " + totalDias + " dias");
+        System.out.println("vc ja viveu aproximadamente: " + totalDias + " dias");
     }
 
 }
